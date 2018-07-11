@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - SSZipArchive (2.1.1)
+  - ZSLogWorker (0.0.1):
+    - SSZipArchive
+
+DEPENDENCIES:
+  - AFNetworking
+  - SSZipArchive
+  - ZSLogWorker (from `./ZSLogWorker/`)
+
+EXTERNAL SOURCES:
+  ZSLogWorker:
+    :path: "./ZSLogWorker/"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  SSZipArchive: 14401ade5f8e82aba1ff03e9f88e9de60937ae60
+  ZSLogWorker: 3e753980bec2c1654d5b752eb3bfdcf189b0471e
+
+PODFILE CHECKSUM: 9708863a500761ff062706eb5c35f5e3156de431
+
+COCOAPODS: 1.0.1

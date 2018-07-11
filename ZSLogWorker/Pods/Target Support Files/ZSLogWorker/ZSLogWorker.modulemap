@@ -1,0 +1,6 @@
+framework module ZSLogWorker {
+  umbrella header "ZSLogWorker-umbrella.h"
+
+  export *
+  module * { export * }
+}

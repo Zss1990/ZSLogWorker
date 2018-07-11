@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ncX-Xa-Sq2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k5c-lO-rCx">
+            <objects>
+                <viewController id="ncX-Xa-Sq2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lUb-4j-ZXP"/>
+                        <viewControllerLayoutGuide type="bottom" id="djp-er-r5y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WTv-Dw-937">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MH9-ug-NtM">
+                                <rect key="frame" x="172.5" y="110" width="30" height="30"/>
+                                <state key="normal" title="log">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loglog:" destination="ncX-Xa-Sq2" eventType="touchUpInside" id="X75-kz-oPU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw5-gi-GOw">
+                                <rect key="frame" x="152.5" y="175" width="70" height="30"/>
+                                <state key="normal" title="thread log">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="threadLog:" destination="ncX-Xa-Sq2" eventType="touchUpInside" id="TOR-62-lAr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6V-Q9-tfn">
+                                <rect key="frame" x="98" y="240" width="179" height="30"/>
+                                <state key="normal" title="UncaughtException Crash">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="uncaughtException:" destination="ncX-Xa-Sq2" eventType="touchUpInside" id="k4G-op-TwY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4m-QB-esf">
+                                <rect key="frame" x="137.5" y="305" width="99" height="30"/>
+                                <state key="normal" title="crearte log zip">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="createLogZip:" destination="ncX-Xa-Sq2" eventType="touchUpInside" id="6Gn-PO-hRI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi4-E9-d5T">
+                                <rect key="frame" x="156" y="370" width="62" height="30"/>
+                                <state key="normal" title="clean log">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cleanLog:" destination="ncX-Xa-Sq2" eventType="touchUpInside" id="YcJ-Wt-ESd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a4m-QB-esf" firstAttribute="top" secondItem="E6V-Q9-tfn" secondAttribute="bottom" constant="35" id="2dR-h2-A3d"/>
+                            <constraint firstItem="E6V-Q9-tfn" firstAttribute="centerX" secondItem="WTv-Dw-937" secondAttribute="centerX" id="3LR-XV-kuo"/>
+                            <constraint firstItem="MH9-ug-NtM" firstAttribute="top" secondItem="lUb-4j-ZXP" secondAttribute="bottom" constant="90" id="9pN-MS-Ni5"/>
+                            <constraint firstItem="MH9-ug-NtM" firstAttribute="centerX" secondItem="WTv-Dw-937" secondAttribute="centerX" id="FQV-NA-pdh"/>
+                            <constraint firstItem="Vi4-E9-d5T" firstAttribute="top" secondItem="a4m-QB-esf" secondAttribute="bottom" constant="35" id="HDr-HT-bAZ"/>
+                            <constraint firstItem="a4m-QB-esf" firstAttribute="centerX" secondItem="WTv-Dw-937" secondAttribute="centerX" id="VG4-DT-G4l"/>
+                            <constraint firstItem="dw5-gi-GOw" firstAttribute="centerX" secondItem="WTv-Dw-937" secondAttribute="centerX" id="ddn-PB-Wdr"/>
+                            <constraint firstItem="E6V-Q9-tfn" firstAttribute="top" secondItem="dw5-gi-GOw" secondAttribute="bottom" constant="35" id="gWM-xk-ud1"/>
+                            <constraint firstItem="Vi4-E9-d5T" firstAttribute="centerX" secondItem="WTv-Dw-937" secondAttribute="centerX" id="qFN-0p-S7d"/>
+                            <constraint firstItem="dw5-gi-GOw" firstAttribute="top" secondItem="MH9-ug-NtM" secondAttribute="bottom" constant="35" id="v7L-3S-na1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sKg-xG-wLc"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WWg-D6-gn7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="21"/>
+        </scene>
+    </scenes>
+</document>

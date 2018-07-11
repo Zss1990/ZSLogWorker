@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ABA5FC620EF4F7600E62ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA5FC520EF4F7600E62ACC /* AppDelegate.m */; };
+		9ABA5FC920EF4F7600E62ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA5FC820EF4F7600E62ACC /* ViewController.m */; };
+		9ABA5FCC20EF4F7600E62ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA5FCA20EF4F7600E62ACC /* Main.storyboard */; };
+		9ABA5FCE20EF4F7600E62ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA5FCD20EF4F7600E62ACC /* Assets.xcassets */; };
+		9ABA5FD120EF4F7600E62ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA5FCF20EF4F7600E62ACC /* LaunchScreen.storyboard */; };
+		9ABA5FD420EF4F7600E62ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA5FD320EF4F7600E62ACC /* main.m */; };
+		9ABA5FDB20F2F3D300E62ACC /* ios_Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA5FDA20F2F3D300E62ACC /* ios_Settings.bundle */; };
+		DEBD2E19309569EC7A6D141A /* Pods_ZSLogWorker_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9823403A4909B54513B31AD1 /* Pods_ZSLogWorker_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		304DB402C71DCD7FD50B43DF /* Pods-ZSLogWorker_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSLogWorker_Demo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ZSLogWorker_Demo/Pods-ZSLogWorker_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7C9E8E9017A9399E2F9E8B50 /* Pods-ZSLogWorker_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSLogWorker_Demo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ZSLogWorker_Demo/Pods-ZSLogWorker_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		9823403A4909B54513B31AD1 /* Pods_ZSLogWorker_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSLogWorker_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABA5FC120EF4F7600E62ACC /* ZSLogWorker_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSLogWorker_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABA5FC420EF4F7600E62ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ABA5FC520EF4F7600E62ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ABA5FC720EF4F7600E62ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9ABA5FC820EF4F7600E62ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9ABA5FCB20EF4F7600E62ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ABA5FCD20EF4F7600E62ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ABA5FD020EF4F7600E62ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ABA5FD220EF4F7600E62ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABA5FD320EF4F7600E62ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ABA5FDA20F2F3D300E62ACC /* ios_Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ios_Settings.bundle; sourceTree = "<group>"; };
+		9ABA5FE020F2F4EA00E62ACC /* SDTemeBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDTemeBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABA5FE220F2F4EA00E62ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ABA5FBE20EF4F7600E62ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBD2E19309569EC7A6D141A /* Pods_ZSLogWorker_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABA5FDD20F2F4EA00E62ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C443DBCB5B092C49EFB7EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E8E9017A9399E2F9E8B50 /* Pods-ZSLogWorker_Demo.debug.xcconfig */,
+				304DB402C71DCD7FD50B43DF /* Pods-ZSLogWorker_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9ABA5FB820EF4F7600E62ACC = {
+			isa = PBXGroup;
+			children = (
+				9ABA5FC320EF4F7600E62ACC /* ZSLogWorker_Demo */,
+				9ABA5FE120F2F4EA00E62ACC /* SDTemeBundle */,
+				9ABA5FC220EF4F7600E62ACC /* Products */,
+				03C443DBCB5B092C49EFB7EF /* Pods */,
+				D300184353A014AB3D358295 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9ABA5FC220EF4F7600E62ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ABA5FC120EF4F7600E62ACC /* ZSLogWorker_Demo.app */,
+				9ABA5FE020F2F4EA00E62ACC /* SDTemeBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ABA5FC320EF4F7600E62ACC /* ZSLogWorker_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9ABA5FC420EF4F7600E62ACC /* AppDelegate.h */,
+				9ABA5FC520EF4F7600E62ACC /* AppDelegate.m */,
+				9ABA5FC720EF4F7600E62ACC /* ViewController.h */,
+				9ABA5FC820EF4F7600E62ACC /* ViewController.m */,
+				9ABA5FCA20EF4F7600E62ACC /* Main.storyboard */,
+				9ABA5FCD20EF4F7600E62ACC /* Assets.xcassets */,
+				9ABA5FCF20EF4F7600E62ACC /* LaunchScreen.storyboard */,
+				9ABA5FD220EF4F7600E62ACC /* Info.plist */,
+				9ABA5FD320EF4F7600E62ACC /* main.m */,
+				9ABA5FDA20F2F3D300E62ACC /* ios_Settings.bundle */,
+			);
+			path = ZSLogWorker_Demo;
+			sourceTree = "<group>";
+		};
+		9ABA5FE120F2F4EA00E62ACC /* SDTemeBundle */ = {
+			isa = PBXGroup;
+			children = (
+				9ABA5FE220F2F4EA00E62ACC /* Info.plist */,
+			);
+			path = SDTemeBundle;
+			sourceTree = "<group>";
+		};
+		D300184353A014AB3D358295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9823403A4909B54513B31AD1 /* Pods_ZSLogWorker_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ABA5FC020EF4F7600E62ACC /* ZSLogWorker_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABA5FD720EF4F7600E62ACC /* Build configuration list for PBXNativeTarget "ZSLogWorker_Demo" */;
+			buildPhases = (
+				438FEAB4B23EF6FEBAF385D9 /* [CP] Check Pods Manifest.lock */,
+				9ABA5FBD20EF4F7600E62ACC /* Sources */,
+				9ABA5FBE20EF4F7600E62ACC /* Frameworks */,
+				9ABA5FBF20EF4F7600E62ACC /* Resources */,
+				6508C7A4057920DEF17D1BDF /* [CP] Embed Pods Frameworks */,
+				7ABB73B147274770F3E8BB25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSLogWorker_Demo;
+			productName = ZSLogWorker_Demo;
+			productReference = 9ABA5FC120EF4F7600E62ACC /* ZSLogWorker_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ABA5FDF20F2F4EA00E62ACC /* SDTemeBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABA5FE320F2F4EA00E62ACC /* Build configuration list for PBXNativeTarget "SDTemeBundle" */;
+			buildPhases = (
+				9ABA5FDC20F2F4EA00E62ACC /* Sources */,
+				9ABA5FDD20F2F4EA00E62ACC /* Frameworks */,
+				9ABA5FDE20F2F4EA00E62ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDTemeBundle;
+			productName = SDTemeBundle;
+			productReference = 9ABA5FE020F2F4EA00E62ACC /* SDTemeBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ABA5FB920EF4F7600E62ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zhushuaishuai;
+				TargetAttributes = {
+					9ABA5FC020EF4F7600E62ACC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					9ABA5FDF20F2F4EA00E62ACC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9ABA5FBC20EF4F7600E62ACC /* Build configuration list for PBXProject "ZSLogWorker_Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ABA5FB820EF4F7600E62ACC;
+			productRefGroup = 9ABA5FC220EF4F7600E62ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ABA5FC020EF4F7600E62ACC /* ZSLogWorker_Demo */,
+				9ABA5FDF20F2F4EA00E62ACC /* SDTemeBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ABA5FBF20EF4F7600E62ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABA5FD120EF4F7600E62ACC /* LaunchScreen.storyboard in Resources */,
+				9ABA5FCE20EF4F7600E62ACC /* Assets.xcassets in Resources */,
+				9ABA5FDB20F2F3D300E62ACC /* ios_Settings.bundle in Resources */,
+				9ABA5FCC20EF4F7600E62ACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABA5FDE20F2F4EA00E62ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438FEAB4B23EF6FEBAF385D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6508C7A4057920DEF17D1BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ZSLogWorker_Demo/Pods-ZSLogWorker_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ABB73B147274770F3E8BB25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ZSLogWorker_Demo/Pods-ZSLogWorker_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ABA5FBD20EF4F7600E62ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABA5FC920EF4F7600E62ACC /* ViewController.m in Sources */,
+				9ABA5FD420EF4F7600E62ACC /* main.m in Sources */,
+				9ABA5FC620EF4F7600E62ACC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABA5FDC20F2F4EA00E62ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ABA5FCA20EF4F7600E62ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABA5FCB20EF4F7600E62ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ABA5FCF20EF4F7600E62ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABA5FD020EF4F7600E62ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ABA5FD520EF4F7600E62ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ABA5FD620EF4F7600E62ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ABA5FD820EF4F7600E62ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9E8E9017A9399E2F9E8B50 /* Pods-ZSLogWorker_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5DHDUGG7JV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZSLogWorker_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hikvision.gaiPhone.ZSLogWorker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e507332-7323-4203-98f0-06b1949ab047";
+				PROVISIONING_PROFILE_SPECIFIER = "公安事业部-DEV";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ABA5FD920EF4F7600E62ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304DB402C71DCD7FD50B43DF /* Pods-ZSLogWorker_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5DHDUGG7JV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZSLogWorker_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hikvision.gaiPhone.ZSLogWorker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c3aad89-a5fe-4cf5-9496-7b1ee05546c3";
+				PROVISIONING_PROFILE_SPECIFIER = 2020hikvisionDistribution;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9ABA5FE420F2F4EA00E62ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = DYZ99XVZAK;
+				INFOPLIST_FILE = SDTemeBundle/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikvision.gaiPhone.SDTemeBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9ABA5FE520F2F4EA00E62ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = DYZ99XVZAK;
+				INFOPLIST_FILE = SDTemeBundle/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hikvision.gaiPhone.SDTemeBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ABA5FBC20EF4F7600E62ACC /* Build configuration list for PBXProject "ZSLogWorker_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABA5FD520EF4F7600E62ACC /* Debug */,
+				9ABA5FD620EF4F7600E62ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABA5FD720EF4F7600E62ACC /* Build configuration list for PBXNativeTarget "ZSLogWorker_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABA5FD820EF4F7600E62ACC /* Debug */,
+				9ABA5FD920EF4F7600E62ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABA5FE320F2F4EA00E62ACC /* Build configuration list for PBXNativeTarget "SDTemeBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABA5FE420F2F4EA00E62ACC /* Debug */,
+				9ABA5FE520F2F4EA00E62ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ABA5FB920EF4F7600E62ACC /* Project object */;
+}

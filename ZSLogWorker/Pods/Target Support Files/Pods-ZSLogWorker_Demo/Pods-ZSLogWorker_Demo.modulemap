@@ -1,0 +1,6 @@
+framework module Pods_ZSLogWorker_Demo {
+  umbrella header "Pods-ZSLogWorker_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
