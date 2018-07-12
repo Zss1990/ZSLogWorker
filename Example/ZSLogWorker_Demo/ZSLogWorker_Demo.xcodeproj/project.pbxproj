@@ -32,8 +32,6 @@
 		9ABA5FD220EF4F7600E62ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ABA5FD320EF4F7600E62ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9ABA5FDA20F2F3D300E62ACC /* ios_Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ios_Settings.bundle; sourceTree = "<group>"; };
-		9ABA5FE020F2F4EA00E62ACC /* SDTemeBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDTemeBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ABA5FE220F2F4EA00E62ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +40,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEBD2E19309569EC7A6D141A /* Pods_ZSLogWorker_Demo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ABA5FDD20F2F4EA00E62ACC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				9ABA5FC320EF4F7600E62ACC /* ZSLogWorker_Demo */,
-				9ABA5FE120F2F4EA00E62ACC /* SDTemeBundle */,
 				9ABA5FC220EF4F7600E62ACC /* Products */,
 				03C443DBCB5B092C49EFB7EF /* Pods */,
 				D300184353A014AB3D358295 /* Frameworks */,
@@ -79,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				9ABA5FC120EF4F7600E62ACC /* ZSLogWorker_Demo.app */,
-				9ABA5FE020F2F4EA00E62ACC /* SDTemeBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,14 +88,6 @@
 				9ABA5FDA20F2F3D300E62ACC /* ios_Settings.bundle */,
 			);
 			path = ZSLogWorker_Demo;
-			sourceTree = "<group>";
-		};
-		9ABA5FE120F2F4EA00E62ACC /* SDTemeBundle */ = {
-			isa = PBXGroup;
-			children = (
-				9ABA5FE220F2F4EA00E62ACC /* Info.plist */,
-			);
-			path = SDTemeBundle;
 			sourceTree = "<group>";
 		};
 		D300184353A014AB3D358295 /* Frameworks */ = {
@@ -140,23 +121,6 @@
 			productReference = 9ABA5FC120EF4F7600E62ACC /* ZSLogWorker_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9ABA5FDF20F2F4EA00E62ACC /* SDTemeBundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9ABA5FE320F2F4EA00E62ACC /* Build configuration list for PBXNativeTarget "SDTemeBundle" */;
-			buildPhases = (
-				9ABA5FDC20F2F4EA00E62ACC /* Sources */,
-				9ABA5FDD20F2F4EA00E62ACC /* Frameworks */,
-				9ABA5FDE20F2F4EA00E62ACC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SDTemeBundle;
-			productName = SDTemeBundle;
-			productReference = 9ABA5FE020F2F4EA00E62ACC /* SDTemeBundle.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,10 +133,6 @@
 					9ABA5FC020EF4F7600E62ACC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
-					};
-					9ABA5FDF20F2F4EA00E62ACC = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -190,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				9ABA5FC020EF4F7600E62ACC /* ZSLogWorker_Demo */,
-				9ABA5FDF20F2F4EA00E62ACC /* SDTemeBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -204,13 +163,6 @@
 				9ABA5FCE20EF4F7600E62ACC /* Assets.xcassets in Resources */,
 				9ABA5FDB20F2F3D300E62ACC /* ios_Settings.bundle in Resources */,
 				9ABA5FCC20EF4F7600E62ACC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ABA5FDE20F2F4EA00E62ACC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +224,6 @@
 				9ABA5FC920EF4F7600E62ACC /* ViewController.m in Sources */,
 				9ABA5FD420EF4F7600E62ACC /* main.m in Sources */,
 				9ABA5FC620EF4F7600E62ACC /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ABA5FDC20F2F4EA00E62ACC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,48 +392,6 @@
 			};
 			name = Release;
 		};
-		9ABA5FE420F2F4EA00E62ACC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = NO;
-				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = DYZ99XVZAK;
-				INFOPLIST_FILE = SDTemeBundle/Info.plist;
-				INSTALL_PATH = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hikvision.gaiPhone.SDTemeBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		9ABA5FE520F2F4EA00E62ACC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = NO;
-				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = DYZ99XVZAK;
-				INFOPLIST_FILE = SDTemeBundle/Info.plist;
-				INSTALL_PATH = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hikvision.gaiPhone.SDTemeBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,15 +409,6 @@
 			buildConfigurations = (
 				9ABA5FD820EF4F7600E62ACC /* Debug */,
 				9ABA5FD920EF4F7600E62ACC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9ABA5FE320F2F4EA00E62ACC /* Build configuration list for PBXNativeTarget "SDTemeBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9ABA5FE420F2F4EA00E62ACC /* Debug */,
-				9ABA5FE520F2F4EA00E62ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,7 +10,7 @@ target 'ZSLogWorker_Demo' do
   pod 'SSZipArchive'
   pod 'AFNetworking'
 
-  pod 'ZSLogWorker', :path => './ZSLogWorker/'
+  pod 'ZSLogWorker', :path => '../'
   
   project 'ZSLogWorker_Demo/ZSLogWorker_Demo.xcodeproj'
 end

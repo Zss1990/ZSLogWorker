@@ -1,0 +1,41 @@
+{
+  "name": "ZSLogWorker",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "A delightful iOS log framework.",
+  "homepage": "https://github.com/Zss1990/ZSLogWorker.git",
+  "social_media_url": "https://github.com/Zss1990/ZSLogWorker.git",
+  "authors": {
+    "zhushuaishuai": "zhushuaishuai163@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Zss1990/ZSLogWorker.git",
+    "tag": "0.0.1",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "description": "日志管理库",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZSLogWorker/**/*.{h,m}",
+  "public_header_files": "ZSLogWorker/**/*.h",
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "Foundation"
+    ]
+  },
+  "dependencies": {
+    "SSZipArchive": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited) ${PODS_ROOT}/**",
+    "LIBRARY_SEARCH_PATHS": "$(inherited) ${PODS_ROOT}/**",
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "STRINGS_FILE_OUTPUT_ENCODING": "UTF-8"
+  }
+}
